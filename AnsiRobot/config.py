@@ -55,6 +55,8 @@ class Config(object):
     DEL_CMDS = True
     INFOPIC = True
     STRICT_GBAN = True
+    TEMP_DOWNLOAD_DIRECTORY = "./"
+    WORKERS = 8
     ALLOW_EXCL = True  # Allow ! commands as well as / (Leave this to true so that blacklist can work)
     CASH_API_KEY = (
         "D5UJD8IQE34NXJ0O"  # Get your API key from https://www.alphavantage.co/support/#api-key
