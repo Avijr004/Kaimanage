@@ -14,9 +14,9 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 21568806 # integer value, dont use ""
-    API_HASH = "83c41043d5ada58ad3dc95652afa70d5"
-    TOKEN = "6491531689:AAFaxNvZyiyPE8lhZlo2dNv45yZoHVjSSIQ"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    API_ID = 23653093 # integer value, dont use ""
+    API_HASH = "ee6df88753c36eeab95391940ba3844f"
+    TOKEN = "7155707387:AAH_P1y4qh2mwsyp-nMDIJHd1OWT7_Z8M1U"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     OWNER_ID = "1556830659" # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OWNER_USERNAME = "lochakpochak"
     SUPPORT_CHAT = "its_witch_here"  # Your own group for support, do not add the @
@@ -26,7 +26,7 @@ class Config(object):
     EVENT_LOGS = (
         -1001603027566
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
-    MONGO_DB_URI= "mongodb+srv://karjr002:INCyT5eXfqjoiYQ4@cluster0.6swcped.mongodb.net/?retryWrites=true&w=majority"
+    MONGO_DB_URI= "mongodb+srv://kalpanapreethiney:Ez4Xke7VUm4VQFAr@cluster0.hsx1cck.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = ""  # needed for any database modules
     LOAD = []
