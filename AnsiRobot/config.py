@@ -14,6 +14,7 @@ class Config(object):
     OWNER_ID = "1556830659" # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OWNER_USERNAME = "lochakpochak"
     SUPPORT_CHAT = "its_witch_here"  # Your own group for support, do not add the @
+    START_IMG = "https://telegra.ph/file/35a7b5d9f1f2605c9c0d3.png"
     JOIN_LOGGER = (
         -1001603027566
     )  # Prints any new group the bot is added to, prints just the name and ID.
