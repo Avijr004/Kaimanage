@@ -41,7 +41,7 @@ class Config(object):
     DEMONS = ("6049338121")
     # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
     TIGERS = ("6049338121")
-    WOLVES = ("whitelists")
+    WOLVES = ("6049338121")
     DONATION_LINK = "https://t.me/lochakpochak" # EG, paypal
     CERT_PATH = None
     PORT = 5000
