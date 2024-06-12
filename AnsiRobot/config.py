@@ -33,14 +33,14 @@ class Config(object):
 
     # OPTIONAL
     ##List of id's -  (not usernames) for users which have sudo access to the bot.
-    DRAGONS = get_user_list("6049338121")
+    DRAGONS = ("6049338121")
     ##List of id's - (not usernames) for developers who will have the same perms as the owner
-    DEV_USERS = get_user_list("6049338121")
+    DEV_USERS = ("6049338121")
     ##List of id's (not usernames) for users which are allowed to gban, but can also be banned.
-    DEMONS = get_user_list("6049338121")
+    DEMONS = ("6049338121")
     # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
-    TIGERS = get_user_list("6049338121")
-    WOLVES = get_user_list("whitelists")
+    TIGERS = ("6049338121")
+    WOLVES = ("whitelists")
     DONATION_LINK = "https://t.me/lochakpochak" # EG, paypal
     CERT_PATH = None
     PORT = 5000
